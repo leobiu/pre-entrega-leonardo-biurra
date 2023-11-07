@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!--Tipo de documento-->
+<html lang = "es"> <!--Etiqueta inicial de HTML-->
+<head>
+    <link rel="stylesheet" href="../css/archivo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap" rel="stylesheet">  
+    <title>FC Coder</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>FC Coder</h1>    
+        </div>
+        <div class="menuInicial">
+            <div>
+                <a href="../index.html"><img src="../img/coder fc.png" alt="FC Coder"></a> 
+            </div>
+            <div>
+                <input type="barra"  name="barra" class = "barra">
+                <input type="submit" value="Buscar" class = "botonBusqueda">
+            </div>
+            <div id="loginCarrito">
+                <a href = "login.html">Login o Registro</a> 
+            </div>
+        </div>
+    </header>   
+    <nav>
+        <ul> <!--Menu de secciones-->
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="estadio.html">Estadio</a>
+                    <ul>
+                        <li><a href="">Aficion</a></li>
+                        <li><a href="">Gradas</a></li>
+                        <li><a href="">Tienda</a></li>
+                    </ul>
+                </li>
+                <li><a href="equipo.html">Equipo</a>
+                    <ul>
+                        <li><a href="">Vestimenta</a></li>
+                        <li><a href="">Jugadores</a></li>
+                        <li><a href="">Autoridades</a></li>
+                    </ul>
+                </li>    
+                <li><a href="trofeos.html">Trofeos</a>
+                    <ul>
+                        <li><a href=""></a>Copa Libertadores</li>
+                        <li><a href="">Copa Sudamericana</a></li>
+                        <li><a href="">Torneos de liga</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </nav> 
+        <main>
+            <section class = "grid-container"> 
+                <article class = "grid">  
+                    <div class = "login">
+                        <form action="" class ="logueo" class = "googleFonts"> <!--Cuadro de Login-->
+                            <fieldset>
+                                <legend> Login </legend>
+                                <label for="correo"> Email: </label>
+                                <input type="email"  name="correo"> <br>
+                                <label for="clave"> Contraseña: </label>
+                                <input type="password" name="clave"> <br>
+                                <input type="submit" value="Enviar">
+                                <input type="button" value="Resetar password">
+                            </fieldset>
+                        </form> 
+                    </div>
+                </article>
+                <article  class = "grid">
+                    <div class = "registro" >
+                        <form action="" class ="logueo" class = "googleFonts"> <!--Cuadro de Registro-->
+                            <fieldset>
+                                <legend> Registro </legend>
+                                <label for="correo"> Email: </label>
+                                <input type="email"  name="correo"> <br>
+                                <label for="clave"> Contraseña: </label>
+                                <input type="password" name="clave"> <br>
+                                <label for="clave"> Confirmacion: </label>
+                                <input type="password" name="clave"> <br>
+                                <input type="submit" value="Enviar">
+                                <input type="button" value="Resetar password">
+                            </fieldset>
+                        </form> 
+                    </div>
+                    
+                </article>
+            </section>
+        </main>
+        <footer> <!--Footer con los locales, contacto, redes sociales y el copyright-->
+            <div>
+                <a href=""><img src="../img/whatsapp-24.png" alt="Whatsapp"></a>
+                <a href=""><img src="../img/facebook-24.png" alt="Facebook"></a>
+                <a href=""><img src="../img/instagram-24.png" alt="Instagram"></a>
+            </div>
+            <div>
+                <a href ="contacto.html" id="contacto">Contacto</a>
+            </div>
+        </footer>
+</body>    
+</html>

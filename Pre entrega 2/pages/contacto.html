@@ -1,0 +1,109 @@
+<!DOCTYPE html> <!--Tipo de documento-->
+<html lang = "es"> <!--Etiqueta inicial de HTML-->
+<head>
+    <link rel="stylesheet" href="../css/archivo.css"/>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Duru+Sans&display=swap" rel="stylesheet"> 
+    <title>FC Coder</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>FC Coder</h1>    
+        </div>
+        <div class="menuInicial">
+            <div>
+                <a href="../index.html"><img src="../img/coder fc.png" alt="FC Coder"></a> 
+            </div>
+            <div>
+                <input type="barra"  name="barra" class = "barra">
+                <input type="submit" value="Buscar" class = "botonBusqueda">
+            </div>
+            <div id="loginCarrito">
+                <a href = "login.html">Login</a> 
+            </div>
+        </div>
+    </header>   
+    <nav>
+        <ul> <!--Menu de secciones-->
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="estadio.html">Estadio</a>
+                    <ul>
+                        <li><a href="">Aficion</a></li>
+                        <li><a href="">Gradas</a></li>
+                        <li><a href="">Tienda</a></li>
+                    </ul>
+                </li>
+                <li><a href="equipo.html">Equipo</a>
+                    <ul>
+                        <li><a href="">Vestimenta</a></li>
+                        <li><a href="">Jugadores</a></li>
+                        <li><a href="">Autoridades</a></li>
+                    </ul>
+                </li>    
+                <li><a href="trofeos.html">Trofeos</a>
+                    <ul>
+                        <li><a href=""></a>Copa Libertadores</li>
+                        <li><a href="">Copa Sudamericana</a></li>
+                        <li><a href="">Torneos de liga</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </nav> 
+        <main>
+            <section class = "grid-container">
+                <article class = "grid">
+                    <div class = "local">
+                        <h3>Ubicacion</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.5226278813066!2d-56.183815916360864!3d-34.86822040152207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80737a888ba5%3A0xe7bc18aa8a9612a1!2sDr.%20Jos%C3%A9%20Mar%C3%ADa%20Penco%203265%2C%2011700%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1699320284300!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <p>Penco 3265</p>
+                        <p>Montevideo, Uruguay</p>
+                    </div>
+                </article>
+                <article class = "grid" >
+                    <div class = "formContacto">
+                        <form action="" class ="logueo" class = "googleFonts"><!--Formulario de contacto-->
+                            <fieldset>
+                                <legend> Formulario de contacto </legend>
+                                <label for="nombre"> Nombre: </label>
+                                <input type="text" name="nombre"> <br>
+                                <label for="telefono"> Telefono: </label>
+                                <input type="telefono"  name="telefono"> <br>
+                                <hr>
+                                <select name="consulta">
+                                    <option value="">Tipo de consulta</option>
+                                    <option value="Cl"> Consulta</option>
+                                    <option value="Rc"> Reclamo</option>
+                                    <option value="Dv"> Devolución</option>
+                                </select>
+                                <hr>
+                                <label for="comentario"> Comentarios: </label> <br>
+                                <textarea name="comentario" cols="35" rows="10"></textarea>
+                                <hr>
+                                <div>Acepta los terminos y condiciones</div>
+                                <input type="checkbox" name="acepta" value="1">
+                                <hr>
+                                <input type="submit" value="Enviar">
+                                <input type="reset" value="Resetear">
+                            </fieldset>
+                        </form>
+                    </div>
+                    
+                </article>    
+            </section>
+        </main>
+        <footer> <!--Footer con los locales, contacto, redes sociales y el copyright-->
+            <div>
+                <a href=""><img src="../img/whatsapp-24.png" alt="Whatsapp"></a>
+                <a href=""><img src="../img/facebook-24.png" alt="Facebook"></a>
+                <a href=""><img src="../img/instagram-24.png" alt="Instagram"></a>
+            </div>
+            <div>
+                <a href ="contacto.html" id="contacto">Contacto</a>
+            </div>
+        </footer>
+</body>    
+</html>
